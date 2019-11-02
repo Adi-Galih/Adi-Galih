@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title> no 1 </title>
+        <h1> Data Diri </h1>
+    </head>
+    <body>
+        <form> 
+            <label for=""> Nama Lengkap </label>
+            <input type="text" placeholder=" Adi Galih ">
+            <br>
+            <label for=""> Usia </label>
+            <input type="number" placeholder=" 23 ">
+            <br>
+            <label for=""> Alamat </label>
+            <textarea cols="10" rows="10" placeholder="Temanggung, Jawa Tengah"></textarea>
+        <br>
+        <label> Hobi </label>
+        <input type="text" placeholder="membaca, menulis, dll">
+        <br>
+        <label> status </label>
+        <br>
+        <input type="radio" name="status"> belum menikah
+        <input type="radio" name="status"> menikah
+        <input type="radio" name="status"> Janda/Duda
+        <br>
+        <label> asal sekolah </label>
+        <select>
+            <option> SMA </option>
+            <option> SMK </option>
+            <option> Diploma </option>
+            <option> Sarjana </option>
+        </select>
+        <br>
+        <label for=""> Tahun Masuk </label>
+        <input type="text" placeholder=" 2014 ">
+        <label for=""> Tahun Keluar </label>
+            <input type="text" placeholder=" 2018 ">
+        <br>
+        <label> jurusan </label>
+        <select>
+            <option> IPA </option>
+            <option> TKJ </option>
+            <option> Informatika </option>
+            <option> Lainnya </option>
+            </select>
+    <br>
+        <label> Skill </label>
+        <select>
+            <option> HTML </option>
+            <option> PHP </option>
+            <option> Java </option>
+            <option> CSS </option>
+            </select>
+            <br>
+            <label> Level </label>
+            <br>
+            <input type="radio" name="level"> beginner
+            <input type="radio" name="level"> advance
+            <input type="radio" name="level"> Expert
+            <br>
+
+        <label> ketertarikan dengan koding </label>
+        <br>
+        <input type="radio" name="koding"> Tidak Tertarik
+        <input type="radio" name="koding"> Tertarik
+        <input type="radio" name="koding"> Sangat Tertarik
+        </form>
+
+    </body>
+</html>
