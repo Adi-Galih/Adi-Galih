@@ -1,0 +1,12 @@
+<html>
+<input text="nama">
+if input= abcdefghijklmnopqrstuvwxyz
+	return true
+  else
+  return false
+  <input text="username">
+if input = (“29@PASS”)
+	return true
+  else
+  retrune false
+</html>
